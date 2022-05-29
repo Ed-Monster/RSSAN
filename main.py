@@ -70,6 +70,8 @@ if __name__ == '__main__':
         model = RSSAN.RSSAN_SA_s_wo(kinds, bands, 3, args.depth, 1, 1, args.patchsize)
     elif args.ab_study == 'RSSAN-SA-s-cr':
         model = RSSAN.RSSAN_SA_s_cr(kinds, bands, 3, args.depth, 1, 1, args.patchsize)
+    elif args.ab_study == 'RN':
+        model = RSSAN.RN(kinds, bands, 3, args.depth, 1, 1, args.patchsize)
 
 
 
